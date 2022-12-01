@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-image: url("images/flowers-bg.jpg");
+  background-image: url("images/mountains-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -70,10 +70,11 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 40%; /*---for responsiveness---*/
+	min-width: 300px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(254, 254, 254, 0.40); /*this uses opacity of 40% for the background color*/
+ 	background: rgba(255, 255, 255, 0.65); /*this uses opacity of 65% for the background color*/
 	text-align: center;
 	/* removed border of border: 4px dashed white;*/
 	
@@ -109,7 +110,8 @@ html, body {
   /*--This is the end of my fade in code--*/
 
 #logo {
-    width: 200px
+    width: 30%; /*---added for responsiveness---*/
+	min-width: 300 px;
 	margin-bottom: 16px;
 	/*border: 3px dashed red;*/
 	text-align: center;
@@ -119,14 +121,14 @@ h1 {
 	font-family: ice-cream-standard, sans-serif;
 	font-size: 3em;
     margin: 0px auto 10px auto;
-    color: rgb(246, 249, 214); /*changed text to be a light yellow*/
+    color: rgb(0, 0, 0); /*changed text to be black */
 }
 
 h2 {
 	font-family: monarcha, serif;
 	font-size: 2em;
     line-height: 1.4;
-    color: #fff;
+    color: rgb(0, 0, 0); /*changed text to be black*/
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
@@ -135,7 +137,7 @@ p {
 	font-family: sofia-pro, sans-serif;
 	font-size: 1.5em;
     line-height: 1.6;
-    color: #fff;
+    color: rgb(120, 120, 120);/*changed text to be grey*/
 }
 
 * {
@@ -162,7 +164,7 @@ p {
 	height: 25px;
 	float: left;
 	margin-right: 0px;
-	border-right: 1px solid #aaa;
+	border-right: 1px solid  rgb(238, 206, 145); /*changed lines to be same color orange*/
 	padding: 0 20px;
   }
    
