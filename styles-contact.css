@@ -146,6 +146,8 @@ p {
   }
    
   nav {
+	width: 35%; /*----added for responsiveness----*/
+	min-width: 300px;
 	margin: 50px;
 	text-align: center;
 	position: fixed; /*made the position fixed*/
