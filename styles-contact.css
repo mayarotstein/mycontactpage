@@ -118,14 +118,14 @@ html, body {
 }
 
 h1 {
-	font-family: ice-cream-standard, sans-serif;
+	font-family: sofia-pro, sans-serif;
 	font-size: 3em;
     margin: 0px auto 10px auto;
     color: rgb(0, 0, 0); /*changed text to be black */
 }
 
 h2 {
-	font-family: monarcha, serif;
+	font-family: sofia-pro, sans-serif;
 	font-size: 2em;
     line-height: 1.4;
     color: rgb(0, 0, 0); /*changed text to be black*/
